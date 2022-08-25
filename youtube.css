@@ -1,0 +1,791 @@
+*{
+ font-family: 'Poppins', sans-serif;
+ /* box-sizing: border-box;
+ margin-top: 0px;
+     */
+     box-sizing: border-box !important;
+     margin-top: 0 !important;
+     /* background-color: white; */
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(253, 253, 253);
+    /* height: 50px; */
+    cursor: pointer;
+    position: sticky;
+    top: 0px; 
+    padding:10px !important;
+   
+    /* padding-bottom:10px; */
+ /* margin-top: 0px; */
+    
+}
+
+.left-side{
+    /* border: 1px solid yellow; */
+    margin-left: 30px;
+    flex: 1;
+    display: flex;
+     align-items: center;
+     
+}
+
+.bar{
+    padding-right: 30px;
+    font-size:20px;
+}
+
+
+
+.middel{
+    /* border: 1px solid rgb(71, 71, 77); */
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    /* padding: 10px !important; */
+   
+}
+
+.middel > input{
+    padding: 12px;
+    width: 600px;
+    /* border: none; */
+    /* outline: none; */
+    border-radius: 3px solid grey;
+    /* border-right: none; */
+   
+
+
+  }
+
+.search{
+font-size: 20px;
+/* margin-left: 5px; */
+/* margin-right: 10px; */
+/* border: 1px solid grey; */
+background-color: rgb(238, 236, 236);
+border: 1px solid rgb(175, 172, 172);
+border-left: none;
+padding: 13px;
+padding-left: 30px;
+
+}
+
+.mice{
+    font-size: 22px;
+margin-left: 25px;
+/* margin-right: 20px; */
+/* background-size: contain; */
+background-color: rgb(238, 236, 236);
+border-radius: 50%;
+padding: 7px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.right-side{
+/* border: 1px solid rgb(145, 22, 42); */
+display: flex;
+flex: 1;
+align-items: center;
+margin-left: 130px;
+}
+
+ .video{
+    font-size: 20px;
+    margin-left: 20px;  
+    padding-right: 20px;  
+}
+
+.bell{
+    font-size: 20px;
+    margin-left: 20px;  
+    padding-right: 20px; 
+}
+
+.profile{
+    font-size: 20px;
+    margin-left: 10px;  
+    /* padding-right: 0px;  */
+} 
+
+/* mainsection left side */
+
+.parent{
+    display: flex;
+   /* background-color: aquamarine; */
+   cursor: pointer;
+   
+}
+
+
+
+.left_sidebar{
+   flex: 1;
+   padding: 10px;
+   padding-top: 10px;
+   margin-left: 20px;
+  
+}
+
+.home{
+    /* display: flex; */
+  align-items: center;
+  /* padding-top: 20px; */
+  font-size: 17px;
+ 
+}
+
+.home > i{
+    font-size: 20px;
+    margin-right: 15px;
+    /* padding-top: 10px; */
+}
+
+.home > span{
+    text-transform: capitalize;
+}
+
+.explore{
+    /* display: flex; */
+  align-items: center;
+  font-size: 17px;
+
+}
+
+.explore > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.explore > span{
+    text-transform: capitalize;
+}
+
+.shorts{
+    /* display: flex; */
+  align-items: center;
+  font-size: 17px;
+}
+
+.shorts > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.shorts > span{
+    text-transform: capitalize;
+}
+
+.Subscriptions{
+    /* display: flex; */
+    align-items: center;
+    font-size: 17px;
+}
+
+.Subscriptions > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.Subscriptions > span{
+    text-transform: capitalize;
+}
+
+
+/* second main section left side  */
+
+
+.library{
+   /* display: flex; */
+  align-items: center;
+  font-size: 17px; 
+}
+
+.library > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.library > span{
+    text-transform: capitalize;
+}
+
+.History{
+    /* display: flex; */
+  align-items: center;
+  font-size: 17px; 
+}
+
+.History > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.History > span{
+    text-transform: capitalize;
+}
+
+.your_videos{
+    /* display: flex; */
+  align-items: center;
+  font-size: 17px; 
+}
+
+.your_videos > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.your_videos > span{
+    text-transform: capitalize;
+}
+
+.watch_later{
+     /* display: flex; */
+  align-items: center;
+  font-size: 17px; 
+}
+
+.watch_later > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.watch_later > span{
+    text-transform: capitalize;
+}
+
+.liked_videos{
+      /* display: flex; */
+  align-items: center;
+  font-size: 17px; 
+}
+
+.liked_videos > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.liked_videos > span{
+    text-transform: capitalize;
+}
+
+/* 3rd main section left side */
+
+.subscriptions > span {
+    text-transform: uppercase;
+}
+ 
+.friends_forever{
+       display: flex;
+  align-items: center;
+  font-size: 17px; 
+  text-transform: capitalize;
+}
+
+.friends_forever > img{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.gym_world{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+text-transform: capitalize;
+}
+
+.gym_world > img{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.computer{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+text-transform: capitalize;
+}
+
+.computer > img{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+.nagarparishad{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+text-transform: capitalize;
+}
+
+.nagarparishad > img{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+
+/* 4th main section left side */
+
+.explore > span {
+    text-transform: uppercase;
+}
+ 
+.movies{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+
+}
+
+.movies > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.movies > span{
+    text-transform: capitalize;
+}
+
+.gamming{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+}
+
+.gamming > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.gamming > span{
+    text-transform: capitalize;
+}
+
+
+.live{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+}
+
+.live > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.live > span{
+    text-transform: capitalize;
+}
+
+.fasion_bauty{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+}
+
+.fasion_bauty > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.fasion_beauty > span{
+    text-transform: capitalize;
+}
+
+.learning{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+}
+
+.learning > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.learning > span{
+    text-transform: capitalize;
+}
+
+.sports{
+    display: flex;
+align-items: center;
+font-size: 17px; 
+}
+
+.sports > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+
+.sports > span{
+    text-transform: capitalize;
+}
+
+
+/* 5th main section left side */
+
+.more_from_youtube{
+    text-transform: uppercase;
+}
+
+.youtube_primium{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.youtube_primium > img{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+
+.youtube_primium > span{
+    text-transform: capitalize;
+}
+
+.creator_studio{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.creator_studio > img{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+
+.creator_studio > span{
+    text-transform: capitalize;
+}
+
+.youtube_music{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.youtube_music > img{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+
+.youtube_music > span{
+    text-transform: capitalize;
+}
+
+.youtube_kids{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.youtube_kids > img{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+
+.youtube_kids > span{
+    text-transform: capitalize;
+}
+
+.youtube_tv{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.youtube_tv > img{
+    font-size: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+
+.youtube_tv > span{
+    text-transform: capitalize;
+}
+
+
+/* 6th main section left side */
+
+.setting{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.setting > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.setting > span{
+    text-transform: capitalize;
+}
+
+.report_history{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+}
+
+.report_history > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.report_history > span{
+    text-transform: capitalize;
+}
+
+.help{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+
+}
+
+.help > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.help > span{
+    text-transform: capitalize;
+}
+
+.send_feedback{
+    display: flex;
+    align-items: center;
+    font-size: 17px; 
+
+}
+
+.send_feedback > i{
+    font-size: 20px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+
+.send_feedback > span{
+    text-transform: capitalize;
+}
+
+
+.span1{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.p1{
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+
+
+
+
+.main_section{
+    flex: 5;
+    /* background-color: rgb(223, 188, 123); */
+    /* border: 1px solid red; */
+  
+  }
+
+.menu{
+    text-transform: capitalize;
+    background-color: rgb(250, 247, 247);
+    display: flex;
+    /* margin: 10px; */
+    /* margin-top: 10px !important; */
+    justify-content: space-around;
+    border: 1px solid rgb(175, 172, 172);
+    position: sticky;
+    top: 78px;
+    /* width:100%; */
+    border-left: none;
+    border-right: none;
+    padding: 7px;
+    font-size: 15px;
+    
+}
+
+.menu > :hover{
+    background-color: black;
+    color: white;
+}
+
+.menu_section{
+    border: 1px solid rgb(175, 172, 172);
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(238, 236, 236);
+
+}
+
+
+
+/* video section start */
+
+ .first_line_videos{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    word-wrap: break-word;
+  /* padding: 10px; */
+  
+  
+
+} 
+
+.single_video{
+    margin-right: 8px;
+    padding-top: 10px;
+
+}
+
+.video_profile{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+  
+  }
+
+  .video_profile > span{
+    /* word-wrap: break-word; */
+    word-break: break-all;
+    font-weight: bold;
+    overflow: hidden;
+  
+  }
+
+  .video_profile > img{
+    border-radius: 50%;
+    margin-right: 10px;
+   font-size: 25px;
+  }
+
+  .channel_title{
+    margin-left: 40px;
+    padding-top: 10px;
+    /* font-weight: bold; */
+    color: rgb(71, 69, 69);
+  }
+
+  span1{
+    font-size: 15px !important;
+    margin-left: 40px;
+  }
+
+
+  .second_line_videos{
+    display: flex;
+    word-wrap: break-word;
+    padding-top: 20px;
+  }
+
+ /* media  */
+
+
+ @media screen and (max-width: 480px) {
+    .left_sidebar{
+        display: none;
+    }
+
+    .first_line_videos{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second_line_videos{
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+    
+    .single_video{
+        margin-left: 100px;
+    }
+
+    .menu{
+    width: 20px;
+    font-size: 10px;
+    align-items: center;
+    margin-left: 100px;
+    justify-items: center;
+    }
+  
+
+.left-side > img {
+    width: 50px;
+    margin-left: 30px;
+}
+
+
+.middel > input{
+   margin-left: -86px;
+    /* background-color: red; */
+    width:203px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.right-side{
+    display: none;
+}
+
+.middel > i {
+    display: none;
+}
+
+  }
